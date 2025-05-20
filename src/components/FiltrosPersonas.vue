@@ -1,13 +1,13 @@
 <template>
     <div class="mb-3">
         <div class="row">
-            <div class="col-md-6">
-                <label for="nombreFilter" class="form-label"><b>Filtrar por Nombre:</b></label>
+            <div class="col-md-6 rounded-4">
+                <label for="nombreFilter" class="form-label"><b></b></label>
                 <input type="text" class="form-control" id="nombreFilter" placeholder="Buscar por nombre o apellido..."
                     v-model="nombreFilterLocal">
             </div>
-            <div class="col-md-6">
-                <label for="dniFilter" class="form-label"> <b>Filtrar por DNI</b>:</label>
+            <div class="col-md-6 rounded-4">
+                <label for="dniFilter" class="form-label "> <b></b></label>
                 <input type="text" class="form-control" id="dniFilter" placeholder="Buscar por DNI..."
                     v-model="dniFilterLocal">
             </div>

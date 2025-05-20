@@ -12,8 +12,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.label{
-  color :White;
+
+.label {
+  color: White;
 }
 
 a {
@@ -30,7 +31,7 @@ body {
   background: #aa4b6b;
   background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
   background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
-  color :rgb(236, 236, 236) !important;
+  color: rgb(236, 236, 236) !important;
   margin: 0;
   display: flex;
   place-items: center;
@@ -68,6 +69,16 @@ button:focus-visible {
 
 .card {
   padding: 3rem;
+  border-radius: 50px;
+  box-shadow: 0 0px 10px rgb(202, 200, 200);
+  transition: all 0.3s ease;
+
+
+}
+
+.card:hover {
+  transform: translateY(-8px);
+
 }
 
 #app {
